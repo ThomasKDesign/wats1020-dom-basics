@@ -21,6 +21,13 @@ var generateFortuneCookie = function() {
         //    `appendChild()` to append the new `li` element you created above.
         // 4. You should see the previous fortune cookie saying show up in the list.
 
+var generateFortuneCookie = function() {
+  var cookieContainer = document.getElementById('fortune-cookie-text');
+  var newListItem = document.createElement('li');
+  var previousFortuneContainer = document.getElementById('previous-fortunes-container').appendChild(newListItem);
+  var random = fortunesList[Math.floor(Math.random()*fortunesList.length)];
+      cookieContainer.innerHTML = random;
+      previousFortuneContainer.innerHTML = random;
     // TODO: Select a new (random) fortune cookie saying from the data stored in the
     // `fortunesList` variable. (HINT: You will use `Math.floor()` and
     // `Math.random()` to accomplish this.) Use this data to update the
