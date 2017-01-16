@@ -5,7 +5,7 @@ html {
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("img/Giant_FortuneCookies.jpg");
-    	background-position: center;
+    	background-position: absolute;
       min-height: 650px;
       width: 100%;
       -webkit-background-size: 100%;
