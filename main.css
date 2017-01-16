@@ -4,19 +4,18 @@ html {
     text-align: center;
     padding: 2em;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://nancyaruegg.files.wordpress.com/2015/06/fortune-cookie-blank-on-green.jpg");
+    background-image: url(../img/Giant_FortuneCookies.jpg);
     background-size: auto;
-    background-image: linear-gradient(to right, olive 0%, yellowgreen 100%), url('w3css.gif');
-    background-blend-mode: 
+   
+    
 }
 
 .fortune-cookie-saying-wrapper {
     border: 3px solid gray;
     padding: 1em;
     margin: 1em;
-  background-image: url("http://www.fancyfortunecookies.com/v/vspfiles/assets/images/flavored-fortune-cookies-assortment.jpg");
-  background-image: url("") 
-  border-style: outset;
+    background-image: url("http://www.fancyfortunecookies.com/v/vspfiles/assets/images/flavored-fortune-cookies-assortment.jpg");
+    border-style: outset;
     background-repeat: auto;
 }
 
