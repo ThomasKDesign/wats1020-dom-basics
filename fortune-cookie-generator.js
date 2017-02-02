@@ -51,6 +51,7 @@ var generateFortuneCookie = function() {
 
 }
 
+
 // The following data list is provided for you to use in your code.
 var fortunesList = [
     "People are naturally attracted to you.",
@@ -103,5 +104,6 @@ var fortunesList = [
     "The man on the top of the mountain did not fall there.",
     "You will conquer obstacles to achieve success.",
     "Joys are often the shadows, cast by sorrows.",
-    "Fortune favors the brave."
+    "Fortune favors the brave",
+    
 ]
