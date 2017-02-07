@@ -10,24 +10,28 @@
         <!-- Custome font for "Make My Fortune" result -->
         <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 
+       
         <link rel="stylesheet" href="main.css">
         <script type="text/javascript" src="fortune-cookie-generator.js"></script>
     </head>
     <body>
-        <h1>Fortune Cookie Generator</h1>
-        <p>Use this page to generate fortune cookie sayings.</p>
-        <div class="fortune-cookie-saying-wrapper">
-            <p id="fortune-cookie-text">Click the button to generate a saying.</p>
-        </div>
-        <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->
        
-        <button onclick="generateFortuneCookie()">Make My Fortune</button>
-        
-        <hr>
-        <h2>Previous Fortunes</h2>
-        <ul id="previous-fortunes-container">
-        <!-- TODO: Modify javascript so previously generated fortunes are listed here. -->
-        </ul>
+          <h1>Fortune Cookie Generator</h1>
+          <center><button onclick="generateFortuneCookie()">Make My Fortune</button></center>
+          
+          <!-- wrapper div -->
+          <div class="container" id="fortune-cookie-saying-wrapper">
+              <p id="fortune-cookie-text">Click the button above to generate a saying.</p>
+          </div> <!-- wrapper -->
+      
+            <!-- TODO: Make this button execute the `generateFortuneCookie()` function. -->  
+          <hr>
+          
+          <h2>Previous Fortunes</h2>
+          <ul id="previous-fortunes-container">
+            <!-- TODO: Modify javascript so previously generated fortunes are listed here. -->
+          </ul>
     </body>
 </html>
