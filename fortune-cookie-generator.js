@@ -26,6 +26,8 @@ var generateFortuneCookie = function() {
             fortune.innerHTML = document.getElementById('fortune-cookie-text').innerHTML;
             // adding fortune to the previous fortune
             document.getElementById('previous-fortunes-container').appendChild(fortune);
+            //play sound on click which is embedded into html
+	          document.getElementById('mySound').play();
             console.log (fortunesList.length);
             console.log (randomNum);
         } else {
